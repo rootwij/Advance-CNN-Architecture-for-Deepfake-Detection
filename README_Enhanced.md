@@ -60,7 +60,7 @@ To download, place your `kaggle.json` in the root directory and run:
 | ResNet50     | torchvision     | Final FC, layer4 | ~92%           | Supports fine-tuning      |
 | VGG19        | torchvision     | Classifier layers | ~91%           | Lightweight, simple       |
 | EfficientNet | timm            | Top layers    | ~94%           | Best performance           |
-| XceptionNet  | keras (ported)  | Custom head   | TBD            | Depthwise separable CNN   |
+| XceptionNet  | keras (ported)  | Custom head   | ~94%            | Depthwise separable CNN   |
 
 All models are adapted for binary classification using `BCEWithLogitsLoss`.
 
